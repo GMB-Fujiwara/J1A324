@@ -207,18 +207,18 @@ li {
   border: 1px solid #e6e6e6;
 }
 
-.btn-denim {
+.btn-red {
   display: inline-block;
   max-width: 180px;
   text-align: center;
-  background-color: #293b6a;
+  background-color: #c41711;
   font-size: 16px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
   border: 1px dashed #FFF;
-  box-shadow: 0px 0px 0px 2px #293b6a;/* box-shadowで外枠を */
+  box-shadow: 0px 0px 0px 2px #c04646;/* box-shadowで外枠を */
 }
 
 .btn-denim:hover {
@@ -230,13 +230,13 @@ li {
   max-width: 180px;
   height:50px;
   text-align: center;
-  background-color: #9ec34b;
+  background-color: #0c4b92;
   font-size: 16px;
   line-height: 52px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #9ec34b;
+  border: 2px solid #0f2950;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -248,7 +248,7 @@ li {
   position: absolute;
   top: 50%;
   left: 50%;
-  background : #FFF;
+  background : #fff;
   opacity: 0;
   transform: translateX(-50%) translateY(-50%) rotate(45deg);
   transition: .2s;
