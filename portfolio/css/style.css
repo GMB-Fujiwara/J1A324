@@ -98,7 +98,7 @@ li {
 }
 
 .header-logo a {
-  color: #333;
+  color: #1ca9e3;
 }
 
 .header-nav-list {
@@ -556,9 +556,9 @@ li {
     display: block;
   }
   .main-visual-img {
-    width: 150px;
+    width: 25%;
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 
   .main-visual-text p:not(:last-child) {
@@ -618,4 +618,12 @@ li {
   .article {
     padding: 50px 0;
   }
+}
+
+/*自分で追加したCSS*/
+.main-visual-logo{
+  max-height: 50%;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
