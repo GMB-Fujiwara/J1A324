@@ -15,9 +15,22 @@
 </head>
 
 <body>
+
+	<div class="shutter"></div>
+ 		<section class="container">
+			PORTFOLIO
+		</section>
+
 	<div class="wrapper">
 		<!-- header -->
 		<header class="header ">
+			<div onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';">
+				<a style="cursor:pointer;">▼ クリックで展開</a>
+				</div>
+				<!--// 折り畳み展開ポインタ -->
+				
+				<!-- 折り畳まれ部分 -->
+				<div id="open" style="display:none;clear:both;">
 			<div class="inner">
 				<h1 class="header-logo">
 					<a href=".">PORTFORIO</a>
@@ -30,6 +43,8 @@
 					</ul>
 				</nav>
 			</div>
+		</div>
+
 		</header>
 		<!-- /header -->
 		<main class="content">
@@ -45,7 +60,7 @@
 						</p>
 						<p class="main-visual-text">
 							2003年3月21日生まれ。18歳。<br class="sp-only">コンピュータへの興味からHCSに入学。<br>
-							最近は音楽を聴いたり、FPSゲームをしたりするのが趣味。<br class="sp-only">4月の応用情報技術者試験へ向けて勉強中。<br>
+							最近は音楽を聴いたり、FPSゲームをしたりするのが趣味。<br class="sp-only">4月の応用情報技術者試験へ向けて勉強中。癒しに猫を飼いたいです...<br>
 						</p>
 					</div>
 				</div>
@@ -95,7 +110,7 @@
 					<h2 class="title">SKILL</h2>
 					<div class="skill-list">
 						<div class="skill-item">
-							<p class="skill-img"><img src="portfolio/img/icon_skill.png" alt=""></p>
+							<p class="skill-img"><img src="portfolio/img/html-5.svg" alt=""></p>
 							<div class="skill-body">
 								<h3 class="skill-name">HTML5/CSS3</h3>
 								<p class="skill-text">
@@ -103,23 +118,29 @@
 							</div>
 						</div>
 						<div class="skill-item">
-							<p class="skill-img"><img src="portfolio/img/icon_skill.png" alt=""></p>
+							<p class="skill-img"><img src="portfolio/img/トロイの木馬アイコン2.png" alt=""></p>
 							<div class="skill-body">
-								<h3 class="skill-name">Python</h3>
+								<h3 class="skill-name">	検定</h3>
 								<p class="skill-text">
-									</p>
+									<ul class="kajou">
+										<li class="kajou">ビジネス文書実務検定1級</li>
+										<li class="kajou">情報処理検定2級</li>
+										<li class="kajou">漢字検定準2級</li>
+										<li class="kajou">数学検定準2級</li>
+										<li class="kajou">珠算電卓検定2級</li>
+									</ul></p>
 							</div>
 						</div>
 						<div class="skill-item">
-							<p class="skill-img"><img src="portfolio/img/icon_skill.png" alt=""></p>
+							<p class="skill-img"><img src="portfolio/img/java.svg" alt=""></p>
 							<div class="skill-body">
 								<h3 class="skill-name">Java</h3>
 								<p class="skill-text">
-									基礎固めの真っ最中。</p>
+									二年次で行うチームでのプログラム作成へ向けて基礎固めの真っ最中。</p>
 							</div>
 						</div>
 						<div class="skill-item">
-							<p class="skill-img"><img src="portfolio/img/icon_skill.png" alt=""></p>
+							<p class="skill-img"><img src="portfolio/img/react-spring.svg" alt=""></p>
 							<div class="skill-body">
 								<h3 class="skill-name">国家試験</h3>
 								<p class="skill-text">
@@ -143,5 +164,4 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script type="text/javascript" src="portfolio/js/script.js"></script>
 </body>
-
 </html>
